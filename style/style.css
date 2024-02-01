@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #24a479;
+    color:white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar{
+    width: min(1080px, 100% - 1rem);
+    margin-inline: auto;
+}
+.navbar img{
+    height: 30px;
+}
+.layout{
+    width: min(720px, 100% - 1rem);
+    margin-inline: auto;
+    padding: 1rem;
+    margin-bottom: 1.5em;
+}
+.mapel{
+    width: min(720px,100% - 1rem);
+    text-align: center;
+    border: 1px solid black;
+    padding:2ch;
+    box-shadow: 3px 3px 5px gray;
+    margin-bottom: 3ch;
+    border-radius: 1rem;
+    line-height: 2rem;
+    margin-inline: auto;    
+    color:whitesmoke;
+    background-image: url("/img/banner.png");
+    background-position: center center;
+    background-repeat: no-repeat;    
+    background-size: cover;
+}
+.instruksi{
+    margin-bottom: 2ch;
+}
+.row{
+    display: grid;
+    grid-template-columns: 3ch 1fr;
+    align-items: start;
+    gap: 2ch;
+    margin-bottom: 1ch;
+}
+.no{
+    text-align: center;
+    background-color: black;
+    height: 3ch;
+    line-height: 3ch;
+    border-radius: 50%;
+    color:white;
+}
+.pembagi{
+    margin-top: 3ch;
+    margin-bottom: 3ch;
+}
+.lay-pemb{
+    background-color: rgb(215, 213, 213);
+    padding: 1ch;
+    font-weight: bold;
+}
+.teks{
+    padding: 1ch;
+    border: 1px solid black;
+    margin-top: 12px;
+    margin-bottom: 1ch;
+}
+.menu{
+    text-align: center;
+    line-height: 1.5rem;
+    margin-top: 6ch;
+    padding: 1rem;
+    width: 300px;
+    box-shadow: 2px 2px 7px gray;
+    margin-inline: auto;
+    
+}
+button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 12px;
+    transition: width 2s;
+  }
+button:active{
+    background-color: rgb(6, 73, 70);
+}
+.kemb-lay{
+    width: min(1080px, 100% - 1rem);
+    display: flex;
+    justify-content: end;
+}
+.hide{
+    display: none;
+    
+}
+.akhir{
+    width: min(720px, 100% - 1rem);
+    margin-inline: auto;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
